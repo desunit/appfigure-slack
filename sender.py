@@ -86,4 +86,5 @@ if latestReviewTime != None:
     writeLastReviewTime(latestReviewTime)
 
 #print messages
-postToSlack(config.slack["webhookUrl"], messages)
+if len(messages) > 0:
+    postToSlack(config.slack["webhookUrl"], messages)

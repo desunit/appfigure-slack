@@ -1,0 +1,6 @@
+slack= {
+    "webhookUrl" : "https://hooks.slack.com ... " 
+}
+appfigure = {
+    "rssUrl" : "http://appfigures.com/reports/reviews/rss/ ... "
+}

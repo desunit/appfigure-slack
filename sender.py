@@ -85,5 +85,5 @@ for review in xmldoc.getElementsByTagName('item'):
 if latestReviewTime != None:
     writeLastReviewTime(latestReviewTime)
 
-print messages
-#postToSlack(config.slack["webhookUrl"], messages)
+#print messages
+postToSlack(config.slack["webhookUrl"], messages)
